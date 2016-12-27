@@ -17,7 +17,7 @@
 <h2>インストール方法</h2>
 <p>全てのパッケージをまとめてインストールするには以下を実行。</p>
 <pre>
-composer require sagittar-org/pieni
+curl https://raw.githubusercontent.com/sagittar-org/pieni/master/misc/install.sh | /bin/sh
 </pre>
 <p>
 Apacheのmod_rewriteが有効なら何も行うことなく、このドキュメンテーションが表示されるでしょう。<br>
