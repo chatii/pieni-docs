@@ -7,6 +7,7 @@
         "source": "https://github.com/sagittar-org/pieni-docs"
     },
     "require": {
-        "sagittar-org/pieni-base": "dev-master"
+        "sagittar-org/pieni-base": "dev-master",
+        "sagittar-org/pieni-misc": "dev-master"
     }
 }
