@@ -1,7 +1,7 @@
 {
     "description": "Documentation Package for pieni",
     "name": "sagittar-org/pieni-docs",
-    "homepage": "https://pieni.sagittar.org/",
+    "homepage": "http://pieni.sagittar.org/",
     "license": "MIT",
     "support": {
         "source": "https://github.com/sagittar-org/pieni-docs"
