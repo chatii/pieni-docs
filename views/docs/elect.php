@@ -6,7 +6,7 @@ Loadライブラリは内部でエレクトを使用しています。<br>
 (パッケージリスト:[APPPATH, BASEPATH], 言語:'ja', アクター:'g', ターゲット:'docs'のとき)<br>
 上位から順に検索され、ファイルが存在すればそのファイルがロードされます。<br>
 </p>
-<pre>
+<pre class="card">
 Array
 (
     [0] => ... application/views/ja/g/docs/template.php

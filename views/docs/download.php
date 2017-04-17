@@ -16,13 +16,13 @@
 
 <h2>インストール方法</h2>
 <p>全てのパッケージをまとめてインストールするには以下を実行。</p>
-<pre>
+<pre class="card">
 curl https://raw.githubusercontent.com/sagittar-org/pieni/master/misc/install.sh | /bin/sh
 </pre>
 <p>
 Apacheのmod_rewriteが有効なら何も行うことなく、このドキュメンテーションが表示されるでしょう。<br>
 デモを試すには以下を実行。<br>
-<pre>
+<pre class="card">
 echo 'CREATE DATABASE `pieni_crud`;' | mysql
 mysql pieni_crud < vendor/sagittar-org/pieni-crud/misc/pieni_crud.dump
 </pre>

@@ -2,7 +2,7 @@
 
 <h2>Config</h2>
 /application/config/core.php
-<pre>
+<pre class="card">
 &lt;?php
 $config = (object) [
 	'language_list' => [
@@ -24,7 +24,7 @@ $config = (object) [
 
 <h2>Controller / View</h2>
 /application/controllers/Welcome.php
-<pre>
+<pre class="card">
 &lt;?php
 class Welcome {
 
@@ -35,13 +35,13 @@ class Welcome {
 }
 </pre>
 /application/views/template.php
-<pre>
+<pre class="card">
 &lt;?php h('Hello, world!'); ?>
 </pre>
 
 <h2>$instance / $vars</h2>
 /application/controllers/Welcome.php
-<pre>
+<pre class="card">
 &lt;?php
 class Welcome {
 
@@ -54,11 +54,11 @@ class Welcome {
 }
 </pre>
 /application/views/template.php
-<pre>
+<pre class="card">
 &lt;?php $instance->load->view($instance->uri->action, $vars); ?>
 </pre>
 /application/views/welcome/index.php
-<pre>
+<pre class="card">
 &lt;?php h('Hello, '.$vars->name.'!'); ?>
 &lt;?php r($instance); ?>
 </pre>

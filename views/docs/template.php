@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="<?php h($instance->uri->language); ?>">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>pieni - <?php l('title_'.$instance->uri->action); ?></title>
-    <meta name="description" content="<?php l('description_'.$instance->uri->action); ?>">
-    <link rel="stylesheet" href="<?php direct('twbs/bootstrap/dist/css/bootstrap.css'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<?php direct('twbs/bootstrap/css/bootstrap.css'); ?>">
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="<?php direct('jquery/jquery/jquery.min.js'); ?>"></script>
+    <script src="<?php direct('twbs/bootstrap/js/bootstrap.js'); ?>"></script>
+
     <link rel="stylesheet" href="<?php direct('default.css'); ?>">
-    <script src="<?php direct('jquery/jquery/dist/jquery.min.js'); ?>"></script>
-    <script src="<?php direct('twbs/bootstrap/dist/js/bootstrap.js'); ?>"></script>
+
+    <title>pieni - A PHP Framework &#039;Smaller and Flexible&#039;</title>
   </head>
   <body>
 
@@ -25,14 +30,16 @@
 
 <?php $instance->load->view('header', $vars); ?>
     <div class="container">
-      <div class="row col-sm-9">
+      <div class="row">
+        <div class="col col-sm-9">
 <?php $instance->load->view($instance->uri->action, $vars); ?>
-        <footer class="footer">
+          <footer class="footer">
 <?php $instance->load->view('footer', $vars); ?>
-        </footer>
-      </div>
-      <div class="row col-sm-3">
+          </footer>
+        </div>
+        <div class="col col-sm-3">
 <?php $instance->load->view('sidebar', $vars); ?>
+        </div>
       </div>
     </div>
 
