@@ -24,7 +24,7 @@ Apacheのmod_rewriteが有効なら何も行うことなく、このドキュメ
 デモを試すには以下を実行。<br>
 <pre class="card">
 echo 'CREATE DATABASE `pieni_crud`;' | mysql
-mysql pieni_crud < vendor/sagittar-org/pieni-crud/misc/pieni_crud.dump
+mysql pieni_crud < vendor/sagittar-org/pieni-crud/misc/pieni_crud.sql
 </pre>
 </p>
 <p>
